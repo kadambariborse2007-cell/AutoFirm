@@ -1,0 +1,8 @@
+service,version_pattern,cve_id,severity,description
+uhttpd,.*,CVE-2020-7982,High,"uhttpd on OpenWrt has had multiple buffer overflow/auth bypass issues in older builds; verify patch level"
+dropbear,0\.5[0-3].*,CVE-2016-7406,Critical,"Dropbear SSH buffer overflow via crafted format string"
+dropbear,0\.4[0-9].*,CVE-2013-4421,High,"Dropbear pre-auth denial of service via keyboard-interactive"
+OpenSSH,7\.[0-2].*,CVE-2016-6210,Medium,"OpenSSH user enumeration via timing attack"
+vsftpd,2\.3\.4,CVE-2011-2523,Critical,"vsftpd 2.3.4 backdoor command execution"
+Apache,2\.2\..*,CVE-2011-3192,High,"Apache Range header denial of service (Apache Killer)"
+Telnet,.*,CVE-1999-0619,Medium,"Telnet transmits credentials in plaintext; inherently insecure protocol"
